@@ -1,0 +1,50 @@
+.form {
+    width: 50%;
+}
+
+.label {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 4px;
+    margin-bottom: 30px;
+    width: fit-content;
+}
+
+.label_title {
+    font-weight: 500;
+}
+
+.input {
+    padding-left: 12px;
+    width: 250px;
+    height: 42px;
+    border: 2px solid;
+    border-radius: 6px;
+    background-color: transparent;
+
+    font-size: 18px;
+    color: inherit;
+}
+
+.btn {
+    display: flex;
+    padding: 8px 12px;
+    margin-left: 50px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #f3a805;
+    font-weight: 500;
+    color: inherit;
+}
+
+.message {
+    position: absolute;
+    bottom: -28px;
+    left: 12px;
+
+    font-size: 14px;
+    font-weight: 500;
+    color: #d00000;
+}

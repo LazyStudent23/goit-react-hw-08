@@ -2,7 +2,9 @@ import { ImSearch } from "react-icons/im";
 
 import styles from "./SearchBox.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import { changeFilter, selectFilters } from "../../redux/filtersSlice/filtersSlice";
+import { selectFilters } from "../../redux/filters/selectors";
+import { changeFilter } from "../../redux/filters/slice";
+
 
 const SearchBox = () => {
   const filters = useSelector(selectFilters);
